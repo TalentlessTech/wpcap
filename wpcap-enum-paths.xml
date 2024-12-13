@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <wpcap-Bin-Path>$(SolutionDir)\bin\wpcap-enum\</wpcap-Bin-Path>
+    <wpcap-Lib-Path>$(SolutionDir)\lib\</wpcap-Lib-Path>
+    <wpcap-Int-Path>$(SolutionDir)\Itermediate\wpcap-enum\</wpcap-Int-Path>
+    <wpcap-Src-Path>$(SolutionDir)\</wpcap-Src-Path>
+    <wpcap-Include-Path>$(SolutionDir)\include\</wpcap-Include-Path>
+    <VC_IncludePath>$(VCInstallDir)include;$(VCInstallDir)atlmfc\include</VC_IncludePath>
+    <WindowsSDK_IncludePath>$(WindowsSdkDir)include</WindowsSDK_IncludePath>
+    <wpcap-includes>$(wpcap-Include-Path)</wpcap-includes>
+  </PropertyGroup>
+</Project>

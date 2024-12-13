@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{906892bd-ba20-4929-90c5-6d2cc0e083f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\pcap">
+      <UniqueIdentifier>{5d0b2af4-58fc-4a13-bbaa-f5c965074e09}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\bittypes.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ip6_misc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Packet32.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcap.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcap-bpf.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcap-config.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcap-namedb.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcap-stdinc.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\remote-ext.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Win32-Extensions.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcap\bluetooth.h">
+      <Filter>include\pcap</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcap\bpf.h">
+      <Filter>include\pcap</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcap\namedb.h">
+      <Filter>include\pcap</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcap\pcap.h">
+      <Filter>include\pcap</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcap\sll.h">
+      <Filter>include\pcap</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcap\usb.h">
+      <Filter>include\pcap</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcap\vlan.h">
+      <Filter>include\pcap</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcap\pcap-dyn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcap\pcap-dyn-api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcap\pcap-dyn-types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
